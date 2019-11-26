@@ -65,7 +65,7 @@ main{
     background: blue;
 }
 .circle:nth-child(3):hover ~ .sections .bottom {
-    left: 0;
+    bottom: 0;
 }
 .circle:nth-child(4){
     background: red;
@@ -116,10 +116,10 @@ main{
 }
 
 .sections div.bottom{
-    top: 0;
-    left; -40vw;
-    width: 40vw;
-    height: 100vh;
+    bottom: -20vh;
+    left:0;
+    width: 100vw;
+    height: 20vh;
     background: blue;
 }
 
